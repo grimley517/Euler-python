@@ -26,3 +26,5 @@ def fiblisteven2(target):
 
 def sumof(alist):
     return (sum(alist))
+
+print (e2.sumof(e2.fiblisteven2(4000000)))
