@@ -23,3 +23,6 @@ def fiblisteven2(target):
         if item % 2 == 0:
             answer.append(item)
     return(answer)
+
+def sumof(alist):
+    return (sum(alist))
