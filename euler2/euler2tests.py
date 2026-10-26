@@ -11,7 +11,7 @@ class runtests(unittest.TestCase):
         
     def test3(self):
         #extract even numbered terms
-        print e2.fiblisteven2(10)
+        print(e2.fiblisteven2(10))
         assert e2.fiblisteven2(10) == [2,8]#test 3 fails - extraction of even numbers
         
         
